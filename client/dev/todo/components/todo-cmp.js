@@ -13,7 +13,7 @@ var todo_service_1 = require('../services/todo-service');
 var TodoCmp = (function () {
     function TodoCmp(_todoService) {
         this._todoService = _todoService;
-        this.title = "ng2do";
+        this.title = "ngToDo Starter App";
         this.todos = [];
         this.todoForm = {
             "todoMessage": ""
@@ -61,4 +61,3 @@ var TodoCmp = (function () {
     return TodoCmp;
 }());
 exports.TodoCmp = TodoCmp;
-//# sourceMappingURL=todo-cmp.js.map

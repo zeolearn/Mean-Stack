@@ -1,0 +1,273 @@
+2016-08-29T23:16:10.165+0530 [initandlisten] MongoDB starting : pid=8595 port=27017 dbpath=../data/db 64-bit host=MacBook-Pro-2.local
+2016-08-29T23:16:10.171+0530 [initandlisten] db version v2.6.8
+2016-08-29T23:16:10.171+0530 [initandlisten] git version: nogitversion
+2016-08-29T23:16:10.171+0530 [initandlisten] OpenSSL version: OpenSSL 1.0.2 22 Jan 2015
+2016-08-29T23:16:10.171+0530 [initandlisten] build info: Darwin tenten-slave.macports.org 14.1.0 Darwin Kernel Version 14.1.0: Mon Dec 22 23:10:38 PST 2014; root:xnu-2782.10.72~2/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2016-08-29T23:16:10.171+0530 [initandlisten] allocator: tcmalloc
+2016-08-29T23:16:10.171+0530 [initandlisten] options: { storage: { dbPath: "../data/db" } }
+2016-08-29T23:16:10.243+0530 [initandlisten] journal dir=../data/db/journal
+2016-08-29T23:16:10.243+0530 [initandlisten] recover begin
+2016-08-29T23:16:10.277+0530 [initandlisten] recover lsn: 104280298
+2016-08-29T23:16:10.277+0530 [initandlisten] recover ../data/db/journal/j._0
+2016-08-29T23:16:10.349+0530 [initandlisten] recover skipping application of section seq:0 < lsn:104280298
+2016-08-29T23:16:10.349+0530 [initandlisten] recover skipping application of section seq:304601 < lsn:104280298
+2016-08-29T23:16:10.349+0530 [initandlisten] recover skipping application of section seq:458361 < lsn:104280298
+2016-08-29T23:16:10.349+0530 [initandlisten] recover skipping application of section seq:509521 < lsn:104280298
+2016-08-29T23:16:10.350+0530 [initandlisten] recover skipping application of section seq:24849882 < lsn:104280298
+2016-08-29T23:16:10.350+0530 [initandlisten] recover skipping application of section seq:25273292 < lsn:104280298
+2016-08-29T23:16:10.351+0530 [initandlisten] recover skipping application of section seq:25379452 < lsn:104280298
+2016-08-29T23:16:10.351+0530 [initandlisten] recover skipping application of section seq:25485462 < lsn:104280298
+2016-08-29T23:16:10.351+0530 [initandlisten] recover skipping application of section seq:27134502 < lsn:104280298
+2016-08-29T23:16:10.351+0530 [initandlisten] recover skipping application of section more...
+2016-08-29T23:16:12.493+0530 [initandlisten] recover cleaning up
+2016-08-29T23:16:12.493+0530 [initandlisten] removeJournalFiles
+2016-08-29T23:16:12.493+0530 [initandlisten] recover done
+2016-08-29T23:16:16.176+0530 [initandlisten] waiting for connections on port 27017
+2016-08-29T23:16:16.454+0530 [initandlisten] connection accepted from 127.0.0.1:57224 #1 (1 connection now open)
+2016-08-29T23:17:16.183+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-29T23:17:16.183+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-29T23:17:16.183+0530 [clientcursormon]  connections:1
+2016-08-29T23:22:16.358+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-29T23:22:16.358+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-29T23:22:16.358+0530 [clientcursormon]  connections:1
+2016-08-29T23:26:48.850+0530 [conn1] end connection 127.0.0.1:57224 (0 connections now open)
+2016-08-29T23:27:16.570+0530 [clientcursormon] mem (MB) res:66 virt:2982
+2016-08-29T23:27:16.570+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-29T23:27:16.570+0530 [clientcursormon]  connections:0
+2016-08-29T23:32:16.776+0530 [clientcursormon] mem (MB) res:66 virt:2982
+2016-08-29T23:32:16.776+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-29T23:32:16.776+0530 [clientcursormon]  connections:0
+2016-08-29T23:34:16.671+0530 [initandlisten] connection accepted from 127.0.0.1:57416 #2 (1 connection now open)
+2016-08-29T23:36:39.504+0530 [conn2] end connection 127.0.0.1:57416 (0 connections now open)
+2016-08-29T23:37:01.436+0530 [initandlisten] connection accepted from 127.0.0.1:57463 #3 (1 connection now open)
+2016-08-29T23:37:16.993+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-29T23:37:16.993+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-29T23:37:16.994+0530 [clientcursormon]  connections:1
+2016-08-29T23:40:41.068+0530 [conn3] end connection 127.0.0.1:57463 (0 connections now open)
+2016-08-29T23:42:16.897+0530 [initandlisten] connection accepted from 127.0.0.1:57568 #4 (1 connection now open)
+2016-08-29T23:42:17.200+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-29T23:42:17.200+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-29T23:42:17.200+0530 [clientcursormon]  connections:1
+2016-08-29T23:44:35.850+0530 [conn4] end connection 127.0.0.1:57568 (0 connections now open)
+2016-08-29T23:44:58.239+0530 [initandlisten] connection accepted from 127.0.0.1:57631 #5 (1 connection now open)
+2016-08-29T23:47:17.389+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-29T23:47:17.403+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-29T23:47:17.403+0530 [clientcursormon]  connections:1
+2016-08-29T23:49:35.421+0530 [conn5] end connection 127.0.0.1:57631 (0 connections now open)
+2016-08-29T23:50:09.435+0530 [initandlisten] connection accepted from 127.0.0.1:57714 #6 (1 connection now open)
+2016-08-29T23:52:17.615+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-29T23:52:17.615+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-29T23:52:17.615+0530 [clientcursormon]  connections:1
+2016-08-29T23:57:17.831+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-29T23:57:17.846+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-29T23:57:17.846+0530 [clientcursormon]  connections:1
+2016-08-30T00:02:18.052+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T00:02:18.062+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:02:18.062+0530 [clientcursormon]  connections:1
+2016-08-30T00:07:04.657+0530 [conn6] end connection 127.0.0.1:57714 (0 connections now open)
+2016-08-30T00:07:18.272+0530 [clientcursormon] mem (MB) res:66 virt:2982
+2016-08-30T00:07:18.272+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:07:18.272+0530 [clientcursormon]  connections:0
+2016-08-30T00:07:40.948+0530 [initandlisten] connection accepted from 127.0.0.1:58083 #7 (1 connection now open)
+2016-08-30T00:09:44.922+0530 [conn7] end connection 127.0.0.1:58083 (0 connections now open)
+2016-08-30T00:10:21.333+0530 [initandlisten] connection accepted from 127.0.0.1:58110 #8 (1 connection now open)
+2016-08-30T00:12:18.452+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T00:12:18.472+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:12:18.472+0530 [clientcursormon]  connections:1
+2016-08-30T00:14:19.257+0530 [conn8] end connection 127.0.0.1:58110 (0 connections now open)
+2016-08-30T00:18:17.977+0530 [clientcursormon] mem (MB) res:66 virt:2982
+2016-08-30T00:18:17.977+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:18:17.978+0530 [clientcursormon]  connections:0
+2016-08-30T00:23:18.196+0530 [clientcursormon] mem (MB) res:66 virt:2982
+2016-08-30T00:23:18.196+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:23:18.197+0530 [clientcursormon]  connections:0
+2016-08-30T00:26:17.297+0530 [initandlisten] connection accepted from 127.0.0.1:58429 #9 (1 connection now open)
+2016-08-30T00:28:18.421+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T00:28:18.421+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:28:18.421+0530 [clientcursormon]  connections:1
+2016-08-30T00:33:18.623+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T00:33:18.623+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:33:18.623+0530 [clientcursormon]  connections:1
+2016-08-30T00:34:47.744+0530 [conn9] end connection 127.0.0.1:58429 (0 connections now open)
+2016-08-30T00:35:46.771+0530 [initandlisten] connection accepted from 127.0.0.1:59367 #10 (1 connection now open)
+2016-08-30T00:38:18.792+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T00:38:18.817+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:38:18.817+0530 [clientcursormon]  connections:1
+2016-08-30T00:40:41.525+0530 [conn10] end connection 127.0.0.1:59367 (0 connections now open)
+2016-08-30T00:43:09.564+0530 [initandlisten] connection accepted from 127.0.0.1:59445 #11 (1 connection now open)
+2016-08-30T00:43:19.008+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T00:43:19.008+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:43:19.008+0530 [clientcursormon]  connections:1
+2016-08-30T00:48:19.197+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T00:48:19.239+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T00:48:19.239+0530 [clientcursormon]  connections:1
+2016-08-30T02:50:07.038+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T02:50:07.038+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T02:50:07.038+0530 [clientcursormon]  connections:1
+2016-08-30T04:51:00.038+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T04:51:00.094+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T04:51:00.094+0530 [clientcursormon]  connections:1
+2016-08-30T06:51:53.030+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T06:51:53.055+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T06:51:53.055+0530 [clientcursormon]  connections:1
+2016-08-30T08:06:17.041+0530 [clientcursormon] mem (MB) res:66 virt:2983
+2016-08-30T08:06:17.067+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:06:17.067+0530 [clientcursormon]  connections:1
+2016-08-30T08:11:17.300+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T08:11:17.327+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:11:17.327+0530 [clientcursormon]  connections:1
+2016-08-30T08:16:17.508+0530 [clientcursormon] mem (MB) res:40 virt:2983
+2016-08-30T08:16:17.531+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:16:17.532+0530 [clientcursormon]  connections:1
+2016-08-30T08:21:17.749+0530 [clientcursormon] mem (MB) res:40 virt:2983
+2016-08-30T08:21:17.825+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:21:17.825+0530 [clientcursormon]  connections:1
+2016-08-30T08:26:18.013+0530 [clientcursormon] mem (MB) res:40 virt:2983
+2016-08-30T08:26:18.030+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:26:18.030+0530 [clientcursormon]  connections:1
+2016-08-30T08:31:18.227+0530 [clientcursormon] mem (MB) res:40 virt:2983
+2016-08-30T08:31:18.227+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:31:18.228+0530 [clientcursormon]  connections:1
+2016-08-30T08:36:18.456+0530 [clientcursormon] mem (MB) res:40 virt:2983
+2016-08-30T08:36:18.473+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:36:18.473+0530 [clientcursormon]  connections:1
+2016-08-30T08:41:18.655+0530 [clientcursormon] mem (MB) res:40 virt:2983
+2016-08-30T08:41:18.655+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:41:18.655+0530 [clientcursormon]  connections:1
+2016-08-30T08:46:18.896+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T08:46:18.897+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:46:18.897+0530 [clientcursormon]  connections:1
+2016-08-30T08:51:19.119+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T08:51:19.120+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:51:19.120+0530 [clientcursormon]  connections:1
+2016-08-30T08:56:19.295+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T08:56:19.295+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T08:56:19.295+0530 [clientcursormon]  connections:1
+2016-08-30T09:01:19.537+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:01:19.538+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:01:19.538+0530 [clientcursormon]  connections:1
+2016-08-30T09:06:19.828+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:06:19.829+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:06:19.829+0530 [clientcursormon]  connections:1
+2016-08-30T09:11:20.253+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:11:20.253+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:11:20.253+0530 [clientcursormon]  connections:1
+2016-08-30T09:16:20.560+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:16:20.560+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:16:20.560+0530 [clientcursormon]  connections:1
+2016-08-30T09:16:48.764+0530 [conn11] end connection 127.0.0.1:59445 (0 connections now open)
+2016-08-30T09:21:20.726+0530 [clientcursormon] mem (MB) res:41 virt:2982
+2016-08-30T09:21:20.726+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:21:20.726+0530 [clientcursormon]  connections:0
+2016-08-30T09:22:04.101+0530 [initandlisten] connection accepted from 127.0.0.1:60685 #12 (1 connection now open)
+2016-08-30T09:22:06.759+0530 [conn12] end connection 127.0.0.1:60685 (0 connections now open)
+2016-08-30T09:23:11.367+0530 [initandlisten] connection accepted from 127.0.0.1:60693 #13 (1 connection now open)
+2016-08-30T09:26:20.890+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:26:20.890+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:26:20.890+0530 [clientcursormon]  connections:1
+2016-08-30T09:28:37.349+0530 [conn13] end connection 127.0.0.1:60693 (0 connections now open)
+2016-08-30T09:28:47.683+0530 [initandlisten] connection accepted from 127.0.0.1:60758 #14 (1 connection now open)
+2016-08-30T09:29:53.507+0530 [conn14] end connection 127.0.0.1:60758 (0 connections now open)
+2016-08-30T09:30:03.812+0530 [initandlisten] connection accepted from 127.0.0.1:60808 #15 (1 connection now open)
+2016-08-30T09:31:21.074+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:31:21.074+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:31:21.074+0530 [clientcursormon]  connections:1
+2016-08-30T09:33:38.617+0530 [conn15] end connection 127.0.0.1:60808 (0 connections now open)
+2016-08-30T09:33:49.733+0530 [initandlisten] connection accepted from 127.0.0.1:60885 #16 (1 connection now open)
+2016-08-30T09:34:59.113+0530 [conn16] end connection 127.0.0.1:60885 (0 connections now open)
+2016-08-30T09:35:09.395+0530 [initandlisten] connection accepted from 127.0.0.1:60924 #17 (1 connection now open)
+2016-08-30T09:35:30.649+0530 [conn17] end connection 127.0.0.1:60924 (0 connections now open)
+2016-08-30T09:35:40.556+0530 [initandlisten] connection accepted from 127.0.0.1:60939 #18 (1 connection now open)
+2016-08-30T09:36:21.250+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:36:21.250+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:36:21.250+0530 [clientcursormon]  connections:1
+2016-08-30T09:41:21.421+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:41:21.421+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:41:21.422+0530 [clientcursormon]  connections:1
+2016-08-30T09:43:08.088+0530 [conn18] end connection 127.0.0.1:60939 (0 connections now open)
+2016-08-30T09:43:46.037+0530 [initandlisten] connection accepted from 127.0.0.1:61377 #19 (1 connection now open)
+2016-08-30T09:46:21.628+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:46:21.629+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:46:21.629+0530 [clientcursormon]  connections:1
+2016-08-30T09:49:35.203+0530 [conn19] end connection 127.0.0.1:61377 (0 connections now open)
+2016-08-30T09:50:18.584+0530 [initandlisten] connection accepted from 127.0.0.1:61682 #20 (1 connection now open)
+2016-08-30T09:51:21.812+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:51:21.813+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:51:21.813+0530 [clientcursormon]  connections:1
+2016-08-30T09:54:24.161+0530 [conn20] end connection 127.0.0.1:61682 (0 connections now open)
+2016-08-30T09:55:20.532+0530 [initandlisten] connection accepted from 127.0.0.1:62006 #21 (1 connection now open)
+2016-08-30T09:56:22.006+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T09:56:22.006+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T09:56:22.006+0530 [clientcursormon]  connections:1
+2016-08-30T09:56:31.926+0530 [conn21] end connection 127.0.0.1:62006 (0 connections now open)
+2016-08-30T09:56:41.724+0530 [initandlisten] connection accepted from 127.0.0.1:62274 #22 (1 connection now open)
+2016-08-30T09:57:39.763+0530 [conn22] end connection 127.0.0.1:62274 (0 connections now open)
+2016-08-30T09:57:50.023+0530 [initandlisten] connection accepted from 127.0.0.1:62526 #23 (1 connection now open)
+2016-08-30T09:59:44.299+0530 [conn23] end connection 127.0.0.1:62526 (0 connections now open)
+2016-08-30T09:59:55.649+0530 [initandlisten] connection accepted from 127.0.0.1:62814 #24 (1 connection now open)
+2016-08-30T10:01:22.193+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T10:01:22.193+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:01:22.194+0530 [clientcursormon]  connections:1
+2016-08-30T10:03:08.427+0530 [conn24] end connection 127.0.0.1:62814 (0 connections now open)
+2016-08-30T10:03:18.464+0530 [initandlisten] connection accepted from 127.0.0.1:63081 #25 (1 connection now open)
+2016-08-30T10:04:14.491+0530 [conn25] end connection 127.0.0.1:63081 (0 connections now open)
+2016-08-30T10:04:24.453+0530 [initandlisten] connection accepted from 127.0.0.1:63359 #26 (1 connection now open)
+2016-08-30T10:05:47.839+0530 [conn26] end connection 127.0.0.1:63359 (0 connections now open)
+2016-08-30T10:05:58.069+0530 [initandlisten] connection accepted from 127.0.0.1:63618 #27 (1 connection now open)
+2016-08-30T10:06:22.380+0530 [clientcursormon] mem (MB) res:41 virt:2983
+2016-08-30T10:06:22.380+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:06:22.380+0530 [clientcursormon]  connections:1
+2016-08-30T10:07:01.712+0530 [conn27] build index on: ng2-fullstack.ng2 properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "ng2-fullstack.ng2" }
+2016-08-30T10:07:01.712+0530 [conn27] 	 added index to empty collection
+2016-08-30T10:11:22.565+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:11:22.565+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:11:22.565+0530 [clientcursormon]  connections:1
+2016-08-30T10:16:22.747+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:16:22.747+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:16:22.747+0530 [clientcursormon]  connections:1
+2016-08-30T10:21:22.941+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:21:22.941+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:21:22.941+0530 [clientcursormon]  connections:1
+2016-08-30T10:26:23.114+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:26:23.114+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:26:23.114+0530 [clientcursormon]  connections:1
+2016-08-30T10:31:23.310+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:31:23.310+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:31:23.310+0530 [clientcursormon]  connections:1
+2016-08-30T10:37:22.702+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:37:22.702+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:37:22.702+0530 [clientcursormon]  connections:1
+2016-08-30T10:42:22.873+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:42:22.873+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:42:22.873+0530 [clientcursormon]  connections:1
+2016-08-30T10:47:23.083+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:47:23.083+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:47:23.083+0530 [clientcursormon]  connections:1
+2016-08-30T10:52:23.275+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:52:23.275+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:52:23.275+0530 [clientcursormon]  connections:1
+2016-08-30T10:57:23.453+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T10:57:23.453+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T10:57:23.453+0530 [clientcursormon]  connections:1
+2016-08-30T11:02:23.624+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T11:02:23.624+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T11:02:23.624+0530 [clientcursormon]  connections:1
+2016-08-30T11:07:23.804+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T11:07:23.830+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T11:07:23.830+0530 [clientcursormon]  connections:1
+2016-08-30T11:12:24.029+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T11:12:24.046+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T11:12:24.046+0530 [clientcursormon]  connections:1
+2016-08-30T12:01:25.037+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T12:01:25.232+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T12:01:25.232+0530 [clientcursormon]  connections:1
+2016-08-30T12:06:25.424+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T12:06:25.425+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T12:06:25.425+0530 [clientcursormon]  connections:1
+2016-08-30T12:11:25.634+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T12:11:25.634+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T12:11:25.634+0530 [clientcursormon]  connections:1
+2016-08-30T12:16:25.853+0530 [clientcursormon] mem (MB) res:25 virt:2983
+2016-08-30T12:16:25.854+0530 [clientcursormon]  mapped (incl journal view):480
+2016-08-30T12:16:25.854+0530 [clientcursormon]  connections:1
+2016-08-30T12:16:28.922+0530 [conn27] end connection 127.0.0.1:63618 (0 connections now open)

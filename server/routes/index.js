@@ -6,14 +6,18 @@ const StaticDispatcher = require('../commons/static/index');
 
 
 module.exports = class Routes {
-   static init(app, router) {
-     TodoRoutes.init(router);
-     
-     router
-       .route('*')
-       .get(StaticDispatcher.sendIndex);
-     
+  static init(app, router) {
+    TodoRoutes.init(router);
 
-     app.use('/', router);
-   }
+    router
+      .route('/')
+      // .route('*')
+      .get(StaticDispatcher.sendIndex);
+
+    app.use('/', router);
+    app.use('/api/heroes', function (req, res, next) {
+      console.log('Going to call next() from main end-point to heroes services with: ', req.originalUrl);
+      next();
+    }, require('../api/heroes/index'));
+  }
 }
