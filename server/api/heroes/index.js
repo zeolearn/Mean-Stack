@@ -1,7 +1,7 @@
 'use strict';
 
 var express = require('express');
-var controller = require('./ng2.controller');
+var controller = require('./hero.controller');
 
 var router = express.Router();
 
