@@ -15,3 +15,4 @@ var freeGlobal = objectTypes[typeof global] && global;
 if (freeGlobal && (freeGlobal.global === freeGlobal || freeGlobal.window === freeGlobal)) {
     exports.root = freeGlobal;
 }
+//# sourceMappingURL=root.js.map

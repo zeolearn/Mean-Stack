@@ -30,3 +30,4 @@ var TestScheduler_1 = require('./testing/TestScheduler');
 exports.TestScheduler = TestScheduler_1.TestScheduler;
 var VirtualTimeScheduler_1 = require('./scheduler/VirtualTimeScheduler');
 exports.VirtualTimeScheduler = VirtualTimeScheduler_1.VirtualTimeScheduler;
+//# sourceMappingURL=Rx.KitchenSink.js.map

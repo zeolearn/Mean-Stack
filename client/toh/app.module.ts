@@ -17,14 +17,14 @@ import { HeroesComponent } from './app/heroes.component';
 import { HeroService }  from './app/hero.service';
 import { routing } from './app/app.routing';
 import { DashboardComponent } from './app/dashboard.component';
-
+// import { DBSocketService } from './app/dbsocket.service';
 // Search component
 import { HeroSearchComponent }  from './app/hero-search.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, routing, HttpModule ],
   declarations: [ AppComponent, FormComponent, HeroDetailComponent, HeroesComponent, DashboardComponent, HeroSearchComponent ],
-  providers: [HeroService]     /* in-mem server data*/,
+  providers: [HeroService, /*DBSocketService*/]     /* in-mem server data*/,
   // providers: [HeroService,,{ provide: XHRBackend, useClass: InMemoryBackendService }, /*in-mem server*/
   //   { provide: SEED_DATA,  useClass: InMemoryDataService }]     /* in-mem server data*/,
   bootstrap:    [ AppComponent ]

@@ -19,3 +19,4 @@ function max(comparer) {
     return this.lift(new reduce_1.ReduceOperator(max));
 }
 exports.max = max;
+//# sourceMappingURL=max.js.map

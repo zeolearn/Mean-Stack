@@ -11,3 +11,4 @@ function publishBehavior(value) {
     return multicast_1.multicast.call(this, new BehaviorSubject_1.BehaviorSubject(value));
 }
 exports.publishBehavior = publishBehavior;
+//# sourceMappingURL=publishBehavior.js.map

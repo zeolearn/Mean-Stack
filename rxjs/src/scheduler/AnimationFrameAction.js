@@ -48,3 +48,4 @@ var AnimationFrameAction = (function (_super) {
     return AnimationFrameAction;
 }(FutureAction_1.FutureAction));
 exports.AnimationFrameAction = AnimationFrameAction;
+//# sourceMappingURL=AnimationFrameAction.js.map

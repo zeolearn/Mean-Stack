@@ -23,3 +23,4 @@ var EmptyError = (function (_super) {
     return EmptyError;
 }(Error));
 exports.EmptyError = EmptyError;
+//# sourceMappingURL=EmptyError.js.map

@@ -62,3 +62,4 @@ var SampleSubscriber = (function (_super) {
     };
     return SampleSubscriber;
 }(OuterSubscriber_1.OuterSubscriber));
+//# sourceMappingURL=sample.js.map

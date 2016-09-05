@@ -56,3 +56,4 @@ var NeverObservable = (function (_super) {
     return NeverObservable;
 }(Observable_1.Observable));
 exports.NeverObservable = NeverObservable;
+//# sourceMappingURL=NeverObservable.js.map

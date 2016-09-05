@@ -19,6 +19,7 @@ var heroes_component_1 = require('./app/heroes.component');
 var hero_service_1 = require('./app/hero.service');
 var app_routing_1 = require('./app/app.routing');
 var dashboard_component_1 = require('./app/dashboard.component');
+// import { DBSocketService } from './app/dbsocket.service';
 // Search component
 var hero_search_component_1 = require('./app/hero-search.component');
 var AppModule = (function () {
@@ -28,7 +29,7 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing, http_1.HttpModule],
             declarations: [app_component_1.AppComponent, form_component_1.FormComponent, hero_detail_component_1.HeroDetailComponent, heroes_component_1.HeroesComponent, dashboard_component_1.DashboardComponent, hero_search_component_1.HeroSearchComponent],
-            providers: [hero_service_1.HeroService] /* in-mem server data*/,
+            providers: [hero_service_1.HeroService,] /* in-mem server data*/,
             // providers: [HeroService,,{ provide: XHRBackend, useClass: InMemoryBackendService }, /*in-mem server*/
             //   { provide: SEED_DATA,  useClass: InMemoryDataService }]     /* in-mem server data*/,
             bootstrap: [app_component_1.AppComponent]
@@ -38,3 +39,4 @@ var AppModule = (function () {
     return AppModule;
 }());
 exports.AppModule = AppModule;
+//# sourceMappingURL=app.module.js.map

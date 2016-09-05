@@ -48,3 +48,4 @@ var SubscribeOnObservable = (function (_super) {
     return SubscribeOnObservable;
 }(Observable_1.Observable));
 exports.SubscribeOnObservable = SubscribeOnObservable;
+//# sourceMappingURL=SubscribeOnObservable.js.map

@@ -14,3 +14,4 @@ function cache(bufferSize, windowTime, scheduler) {
     return publishReplay_1.publishReplay.call(this, bufferSize, windowTime, scheduler).refCount();
 }
 exports.cache = cache;
+//# sourceMappingURL=cache.js.map

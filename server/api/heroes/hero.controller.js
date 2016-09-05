@@ -49,8 +49,10 @@ function saveUpdates(updates) {
 }
 
 function removeEntity(res) {
+  console.log('CALLED REMOVE')
   return function(entity) {
     if (entity) {
+        console.log('REMOVE ENTITY : ', entity)
       return entity.remove()
         .then(() => {
           res.status(204).end();
@@ -85,8 +87,8 @@ exports.index = function(req, res) {
 
 // Gets a single Hero from the DB
 exports.show = function(req, res) {
-  // return Hero.findById(req.params.id).exec()
-  return Hero.find(req.params.id).exec()
+  return Hero.findById(req.params.id).exec()
+  // return Hero.find({id: req.params.id}).exec()
     .then(handleEntityNotFound(res))
     .then(respondWithResult(res))
     .catch(handleError(res));
@@ -116,6 +118,7 @@ exports.update = function(req, res) {
 // Deletes a Hero from the DB
 exports.destroy = function(req, res) {
   return Hero.findById(req.params.id).exec()
+  // return Hero.find({id: req.params.id}).exec()
     .then(handleEntityNotFound(res))
     .then(removeEntity(res))
     .catch(handleError(res));

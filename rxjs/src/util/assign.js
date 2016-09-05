@@ -28,3 +28,4 @@ if (typeof Object.assign != 'function') {
     })();
 }
 exports.assign = Object.assign;
+//# sourceMappingURL=assign.js.map

@@ -25,3 +25,4 @@ function toPromise(PromiseCtor) {
     });
 }
 exports.toPromise = toPromise;
+//# sourceMappingURL=toPromise.js.map

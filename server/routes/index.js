@@ -18,6 +18,7 @@ module.exports = class Routes {
     app.use('/api/heroes', function (req, res, next) {
       console.log('Going to call next() from main end-point to heroes services with: ', req.originalUrl);
       next();
-    }, require('../api/heroes/index'));
+    // }, require('../api/heroes/index'));
+    }, require('../api/heroes'));
   }
 }

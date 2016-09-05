@@ -127,3 +127,4 @@ function mergeStatic() {
     return new ArrayObservable_1.ArrayObservable(observables, scheduler).lift(new mergeAll_1.MergeAllOperator(concurrent));
 }
 exports.mergeStatic = mergeStatic;
+//# sourceMappingURL=merge.js.map

@@ -105,3 +105,4 @@ var SwitchSubscriber = (function (_super) {
     };
     return SwitchSubscriber;
 }(OuterSubscriber_1.OuterSubscriber));
+//# sourceMappingURL=switch.js.map

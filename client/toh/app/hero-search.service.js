@@ -26,3 +26,4 @@ var HeroSearchService = (function () {
     return HeroSearchService;
 }());
 exports.HeroSearchService = HeroSearchService;
+//# sourceMappingURL=hero-search.service.js.map

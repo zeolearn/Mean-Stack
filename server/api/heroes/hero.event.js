@@ -15,7 +15,7 @@ HeroEvents.setMaxListeners(0);
 var events = {
   'save': 'save',
   'remove': 'remove'
-};
+}; // other events are 'init' and 'validate'
 
 // Register the event emitter to the model events
 for (var e in events) {
@@ -26,7 +26,7 @@ for (var e in events) {
 
 function emitEvent(event) {
   return function(doc) {
-    HeroEvents.emit(event + ':' + doc._id, doc);
+    HeroEvents.emit(event + ':' + doc._id, doc);//"event: 1, {id: 1, name: ""}"
     HeroEvents.emit(event, doc);
   }
 }

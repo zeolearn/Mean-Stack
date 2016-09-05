@@ -15,3 +15,4 @@ function publishReplay(bufferSize, windowTime, scheduler) {
     return multicast_1.multicast.call(this, new ReplaySubject_1.ReplaySubject(bufferSize, windowTime, scheduler));
 }
 exports.publishReplay = publishReplay;
+//# sourceMappingURL=publishReplay.js.map

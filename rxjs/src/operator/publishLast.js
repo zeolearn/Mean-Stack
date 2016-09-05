@@ -10,3 +10,4 @@ function publishLast() {
     return multicast_1.multicast.call(this, new AsyncSubject_1.AsyncSubject());
 }
 exports.publishLast = publishLast;
+//# sourceMappingURL=publishLast.js.map

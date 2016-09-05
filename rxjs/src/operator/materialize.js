@@ -58,3 +58,4 @@ var MaterializeSubscriber = (function (_super) {
     };
     return MaterializeSubscriber;
 }(Subscriber_1.Subscriber));
+//# sourceMappingURL=materialize.js.map

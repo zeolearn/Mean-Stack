@@ -43,3 +43,4 @@ var ColdObservable = (function (_super) {
 }(Observable_1.Observable));
 exports.ColdObservable = ColdObservable;
 applyMixins_1.applyMixins(ColdObservable, [SubscriptionLoggable_1.SubscriptionLoggable]);
+//# sourceMappingURL=ColdObservable.js.map

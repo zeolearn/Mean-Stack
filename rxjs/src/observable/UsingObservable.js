@@ -58,3 +58,4 @@ var UsingSubscriber = (function (_super) {
     };
     return UsingSubscriber;
 }(OuterSubscriber_1.OuterSubscriber));
+//# sourceMappingURL=UsingObservable.js.map

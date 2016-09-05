@@ -22,3 +22,4 @@ var ObjectUnsubscribedError = (function (_super) {
     return ObjectUnsubscribedError;
 }(Error));
 exports.ObjectUnsubscribedError = ObjectUnsubscribedError;
+//# sourceMappingURL=ObjectUnsubscribedError.js.map

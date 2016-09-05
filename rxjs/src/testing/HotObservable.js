@@ -45,3 +45,4 @@ var HotObservable = (function (_super) {
 }(Subject_1.Subject));
 exports.HotObservable = HotObservable;
 applyMixins_1.applyMixins(HotObservable, [SubscriptionLoggable_1.SubscriptionLoggable]);
+//# sourceMappingURL=HotObservable.js.map

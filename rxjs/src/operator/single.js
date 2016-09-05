@@ -92,3 +92,4 @@ var SingleSubscriber = (function (_super) {
     };
     return SingleSubscriber;
 }(Subscriber_1.Subscriber));
+//# sourceMappingURL=single.js.map

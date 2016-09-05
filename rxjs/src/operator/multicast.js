@@ -29,3 +29,4 @@ function multicast(subjectOrSubjectFactory) {
     return new ConnectableObservable_1.ConnectableObservable(this, subjectFactory);
 }
 exports.multicast = multicast;
+//# sourceMappingURL=multicast.js.map

@@ -17,3 +17,4 @@ var AnimationFrameScheduler = (function (_super) {
     return AnimationFrameScheduler;
 }(QueueScheduler_1.QueueScheduler));
 exports.AnimationFrameScheduler = AnimationFrameScheduler;
+//# sourceMappingURL=AnimationFrameScheduler.js.map

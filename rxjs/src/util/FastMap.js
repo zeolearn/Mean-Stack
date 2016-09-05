@@ -28,3 +28,4 @@ var FastMap = (function () {
     return FastMap;
 }());
 exports.FastMap = FastMap;
+//# sourceMappingURL=FastMap.js.map

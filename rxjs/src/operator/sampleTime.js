@@ -59,3 +59,4 @@ function dispatchNotification(state) {
     subscriber.notifyNext();
     this.schedule(state, delay);
 }
+//# sourceMappingURL=sampleTime.js.map

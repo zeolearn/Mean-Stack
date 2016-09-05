@@ -23,3 +23,4 @@ var ArgumentOutOfRangeError = (function (_super) {
     return ArgumentOutOfRangeError;
 }(Error));
 exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError;
+//# sourceMappingURL=ArgumentOutOfRangeError.js.map

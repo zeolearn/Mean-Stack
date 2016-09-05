@@ -136,3 +136,4 @@ var SwitchMapSubscriber = (function (_super) {
     };
     return SwitchMapSubscriber;
 }(OuterSubscriber_1.OuterSubscriber));
+//# sourceMappingURL=switchMap.js.map

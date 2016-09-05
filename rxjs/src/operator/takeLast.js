@@ -76,3 +76,4 @@ var TakeLastSubscriber = (function (_super) {
     };
     return TakeLastSubscriber;
 }(Subscriber_1.Subscriber));
+//# sourceMappingURL=takeLast.js.map

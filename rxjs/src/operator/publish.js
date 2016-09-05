@@ -15,3 +15,4 @@ function publish() {
     return multicast_1.multicast.call(this, new Subject_1.Subject());
 }
 exports.publish = publish;
+//# sourceMappingURL=publish.js.map

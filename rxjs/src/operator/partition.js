@@ -15,3 +15,4 @@ function partition(predicate, thisArg) {
     ];
 }
 exports.partition = partition;
+//# sourceMappingURL=partition.js.map

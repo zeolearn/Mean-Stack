@@ -11,9 +11,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var hero_service_1 = require('./hero.service');
 var router_1 = require('@angular/router');
+var dbsocket_service_1 = require('./dbsocket.service');
 var DashboardComponent = (function () {
-    function DashboardComponent(heroService, router) {
+    function DashboardComponent(heroService, dbSocketService, router) {
         this.heroService = heroService;
+        this.dbSocketService = dbSocketService;
         this.router = router;
         this.heroes = [];
     }
@@ -23,6 +25,15 @@ var DashboardComponent = (function () {
             console.log('Heroes from HeroService:', heroes);
             _this.heroes = heroes;
         });
+        this.socketConnection = this.dbSocketService.get("demo").subscribe(function (message) {
+            console.log('SIO: Message Received');
+        });
+        // this.socketConnection = this.dbSocketService.onSave().subscribe(message => {
+        //     console.log('SIO: Document Saved')
+        // })
+        // this.socketConnection = this.dbSocketService.onDelete().subscribe(message => {
+        //     console.log('SIO: Document Removed')
+        // })
     };
     DashboardComponent.prototype.gotoDetail = function (hero) {
         var link = ['/detail', hero.id];
@@ -32,9 +43,11 @@ var DashboardComponent = (function () {
         core_1.Component({
             templateUrl: 'app/dashboard.component.html',
             styleUrls: ['app/dashboard.component.css'],
+            providers: [dbsocket_service_1.DBSocketService]
         }), 
-        __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.Router])
+        __metadata('design:paramtypes', [hero_service_1.HeroService, dbsocket_service_1.DBSocketService, router_1.Router])
     ], DashboardComponent);
     return DashboardComponent;
 }());
 exports.DashboardComponent = DashboardComponent;
+//# sourceMappingURL=dashboard.component.js.map

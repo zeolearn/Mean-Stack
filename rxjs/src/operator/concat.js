@@ -105,3 +105,4 @@ function concatStatic() {
     return new ArrayObservable_1.ArrayObservable(observables, scheduler).lift(new mergeAll_1.MergeAllOperator(1));
 }
 exports.concatStatic = concatStatic;
+//# sourceMappingURL=concat.js.map

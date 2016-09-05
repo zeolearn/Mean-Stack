@@ -85,3 +85,4 @@ var IntervalObservable = (function (_super) {
     return IntervalObservable;
 }(Observable_1.Observable));
 exports.IntervalObservable = IntervalObservable;
+//# sourceMappingURL=IntervalObservable.js.map

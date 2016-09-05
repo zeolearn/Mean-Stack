@@ -21,3 +21,4 @@ exports.Scheduler = {
     queue: queue_1.queue,
     animationFrame: animationFrame_1.animationFrame
 };
+//# sourceMappingURL=Rx.DOM.js.map

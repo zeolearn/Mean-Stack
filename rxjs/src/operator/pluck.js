@@ -55,3 +55,4 @@ function plucker(props, length) {
     };
     return mapper;
 }
+//# sourceMappingURL=pluck.js.map

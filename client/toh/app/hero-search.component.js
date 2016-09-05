@@ -53,3 +53,4 @@ var HeroSearchComponent = (function () {
     return HeroSearchComponent;
 }());
 exports.HeroSearchComponent = HeroSearchComponent;
+//# sourceMappingURL=hero-search.component.js.map

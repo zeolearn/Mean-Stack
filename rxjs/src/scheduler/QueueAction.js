@@ -30,3 +30,4 @@ var QueueAction = (function (_super) {
     return QueueAction;
 }(FutureAction_1.FutureAction));
 exports.QueueAction = QueueAction;
+//# sourceMappingURL=QueueAction.js.map

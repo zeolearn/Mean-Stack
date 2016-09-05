@@ -4,11 +4,12 @@
 
 'use strict';
 
-import HeroEvents from './hero.events';
+import HeroEvents from './hero.event';
+
+console.log('SOCKET INIT')
 
 // Model events to emit
 var events = ['save', 'remove'];
-
 export function register(socket) {
   // Bind model events to socket events
   for (var i = 0, eventsLength = events.length; i < eventsLength; i++) {

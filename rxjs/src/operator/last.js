@@ -115,3 +115,4 @@ var LastSubscriber = (function (_super) {
     };
     return LastSubscriber;
 }(Subscriber_1.Subscriber));
+//# sourceMappingURL=last.js.map

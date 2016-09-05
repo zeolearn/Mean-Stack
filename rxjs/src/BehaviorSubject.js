@@ -51,3 +51,4 @@ var BehaviorSubject = (function (_super) {
     return BehaviorSubject;
 }(Subject_1.Subject));
 exports.BehaviorSubject = BehaviorSubject;
+//# sourceMappingURL=BehaviorSubject.js.map

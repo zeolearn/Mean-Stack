@@ -104,3 +104,4 @@ var TimerObservable = (function (_super) {
     return TimerObservable;
 }(Observable_1.Observable));
 exports.TimerObservable = TimerObservable;
+//# sourceMappingURL=TimerObservable.js.map

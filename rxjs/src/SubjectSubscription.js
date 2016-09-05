@@ -37,3 +37,4 @@ var SubjectSubscription = (function (_super) {
     return SubjectSubscription;
 }(Subscription_1.Subscription));
 exports.SubjectSubscription = SubjectSubscription;
+//# sourceMappingURL=SubjectSubscription.js.map

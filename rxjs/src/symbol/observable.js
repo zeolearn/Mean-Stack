@@ -18,3 +18,4 @@ if (typeof Symbol === 'function') {
 else {
     exports.$$observable = '@@observable';
 }
+//# sourceMappingURL=observable.js.map

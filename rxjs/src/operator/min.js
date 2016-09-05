@@ -18,3 +18,4 @@ function min(comparer) {
     return this.lift(new reduce_1.ReduceOperator(min));
 }
 exports.min = min;
+//# sourceMappingURL=min.js.map

@@ -123,3 +123,4 @@ var SwitchMapToSubscriber = (function (_super) {
     };
     return SwitchMapToSubscriber;
 }(OuterSubscriber_1.OuterSubscriber));
+//# sourceMappingURL=switchMapTo.js.map

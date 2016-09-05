@@ -184,3 +184,4 @@ var WebSocketSubject = (function (_super) {
     return WebSocketSubject;
 }(Subject_1.Subject));
 exports.WebSocketSubject = WebSocketSubject;
+//# sourceMappingURL=WebSocketSubject.js.map

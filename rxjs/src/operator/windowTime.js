@@ -167,3 +167,4 @@ function dispatchWindowClose(arg) {
     }
     subscriber.closeWindow(window);
 }
+//# sourceMappingURL=windowTime.js.map

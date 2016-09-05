@@ -16,3 +16,4 @@ var SubscriptionLoggable = (function () {
     return SubscriptionLoggable;
 }());
 exports.SubscriptionLoggable = SubscriptionLoggable;
+//# sourceMappingURL=SubscriptionLoggable.js.map

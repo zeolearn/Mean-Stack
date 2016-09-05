@@ -58,3 +58,4 @@ var FromEventPatternObservable = (function (_super) {
     return FromEventPatternObservable;
 }(Observable_1.Observable));
 exports.FromEventPatternObservable = FromEventPatternObservable;
+//# sourceMappingURL=FromEventPatternObservable.js.map

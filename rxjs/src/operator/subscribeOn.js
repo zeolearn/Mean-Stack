@@ -16,3 +16,4 @@ function subscribeOn(scheduler, delay) {
     return new SubscribeOnObservable_1.SubscribeOnObservable(this, delay, scheduler);
 }
 exports.subscribeOn = subscribeOn;
+//# sourceMappingURL=subscribeOn.js.map

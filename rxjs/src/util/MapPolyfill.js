@@ -44,3 +44,4 @@ var MapPolyfill = (function () {
     return MapPolyfill;
 }());
 exports.MapPolyfill = MapPolyfill;
+//# sourceMappingURL=MapPolyfill.js.map

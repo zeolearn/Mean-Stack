@@ -31,3 +31,4 @@ var RequestAnimationFrameDefinition = (function () {
 }());
 exports.RequestAnimationFrameDefinition = RequestAnimationFrameDefinition;
 exports.AnimationFrame = new RequestAnimationFrameDefinition(root_1.root);
+//# sourceMappingURL=AnimationFrame.js.map

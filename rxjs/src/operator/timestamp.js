@@ -47,3 +47,4 @@ var TimestampSubscriber = (function (_super) {
     };
     return TimestampSubscriber;
 }(Subscriber_1.Subscriber));
+//# sourceMappingURL=timestamp.js.map

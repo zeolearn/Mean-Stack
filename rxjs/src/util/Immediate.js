@@ -206,3 +206,4 @@ var ImmediateDefinition = (function () {
 }());
 exports.ImmediateDefinition = ImmediateDefinition;
 exports.Immediate = new ImmediateDefinition(root_1.root);
+//# sourceMappingURL=Immediate.js.map

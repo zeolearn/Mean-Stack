@@ -8,3 +8,4 @@ var SubscriptionLog = (function () {
     return SubscriptionLog;
 }());
 exports.SubscriptionLog = SubscriptionLog;
+//# sourceMappingURL=SubscriptionLog.js.map

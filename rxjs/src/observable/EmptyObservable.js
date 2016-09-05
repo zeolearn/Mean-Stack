@@ -72,3 +72,4 @@ var EmptyObservable = (function (_super) {
     return EmptyObservable;
 }(Observable_1.Observable));
 exports.EmptyObservable = EmptyObservable;
+//# sourceMappingURL=EmptyObservable.js.map

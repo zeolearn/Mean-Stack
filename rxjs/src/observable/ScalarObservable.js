@@ -52,3 +52,4 @@ var ScalarObservable = (function (_super) {
     return ScalarObservable;
 }(Observable_1.Observable));
 exports.ScalarObservable = ScalarObservable;
+//# sourceMappingURL=ScalarObservable.js.map
